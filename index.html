@@ -1,14 +1,78 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Coworking Space</title>
   </head>
   <body>
-    <h1>Hola soy un título</h1>
-    <p>Hola soy un párrafo</p>
+    <div class="container">
+      <header>
+
+        <a class="logo" href="#"><img src="/img/logo.svg" alt="Logo"></a>
+
+        <nav class="main-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">More</a></li>
+            <li class="search"><a href="#"><img src="/img/search.svg" alt=""></a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section class="hero">
+        <div class="container-hero">
+          <h1 class="title">Find your comfort working zone with Cozy Corner</h1>
+          <p class="sub-title">Change your work environment by using a co-working place, to meet new people and gain a new network</p>
+        </div>
+        <div class="checks">
+          <div>
+            <img src="/img/check.svg" alt="">
+            <p>Virtual Office Setup</p>
+          </div>
+          <div>
+            <img src="/img/check.svg" alt="">
+            <p>Open Workspace</p>
+          </div>
+          <div>
+            <img src="/img/check.svg" alt="">
+            <p>Space for Event</p>
+          </div>
+          <div>
+            <img src="/img/check.svg" alt="">
+            <p>Chill Out Zone</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="information">
+        <article>
+          <img src="/img/location.svg" alt="">
+          <h3>20 + Location</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article>
+          <img src="/img/room.svg" alt="">
+          <h3>324 Rooms Available</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article>
+          <img src="/img/wifi.svg" alt="">
+          <h3>100% Internet Connected</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+      </section>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
